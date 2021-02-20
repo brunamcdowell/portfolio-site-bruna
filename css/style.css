@@ -5,37 +5,37 @@ Colors used:
 Font used: Roboto for Copy;
 Font used: Raleway for Headings;
 */
-
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #ffffff;
+  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
 }
-
 h1, h2, h3, h4 {
   font-family: 'Raleway', sans-serif;
   line-height: 1.4;
 }
 h1 {
   font-size: 2.75em;
-  font-weight: 700;
+  font-weight: 300;
 }
-
 h2 {
   font-size: 2.25em;
-  font-weight: 700;
+  font-weight: 300;
 }
-
 h3 {
   font-size: 1.75em;
-  font-weight: 400;
+  font-weight: 300;
 }
 h4 {
   font-size: 1.35em;
-  font-weight: 400;
+  font-weight: 300;
 }
 img {
   width: 100%;
@@ -48,9 +48,6 @@ a:hover,
 a:focus {
   color: #b10e59;
   text-decoration: underline; /* Underlining when hovering over a link */
-}
-a:visited { /* visited link */
-  color: #dd3482;
 }
 a:active { /* selected link */
   color: #b10e59;
@@ -78,4 +75,91 @@ a.button {
 .button.contact:hover {
   background-color: #ff7f50;
   color: #ffffff;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+.logo {
+  max-width: 250px;
+}
+header {
+  background-color: #ffe4c4;
+  text-align: center;
+  padding: 10px 0;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.24);
+  -moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.24);
+  box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.24);
+  position: fixed;
+  width: 100%;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 8px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+nav {
+  display: inline-block;
+  width: 100%;
+}
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+main {
+  padding-top: 133px;
+}
+#work-img-hp {
+  float: left;
+}
+#work-description-hp {
+}
+footer h2 {
+  text-align: center;
+}
+footer p {
+  text-align: center;
+}
+footer .social-media-icons {
+  display: inline-block;
+}
+#project-section {
+    padding: 20px 0;
+    display: inline-block;
+}
+#hp-project h2 {
+  text-align: center;
+}
+footer {
+  background-color: #ffe4c4;
+  width: 100%;
+  padding: 10px 0;
+}
+#about-designer-section h1, h2 {
+  text-align: center;
+}
+#about-designer-section {
+  padding: 20px 0;
+}
+#project-section h1, h2, p {
+    text-align: center;
 }

@@ -5,16 +5,20 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Roboto:ital,wght@0,300;0,500;0,900;1,300;1,500;1,900&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio UI Designer Bruna Oliveira</title>
 </head>
 
 <body>
   <header>
-    <div id="header-section">
-      <a href="index.html">Bruna Oliveira</a>
+    <div class="container">
+      <picture>
+        <a class="logo" href="index.html"><img src="img/logo/logo.jpg" alt=""></a>
+      </picture>
       <nav>
-        <ul>
+        <ul class="navigation">
           <li><a href="project_1.html">My work</a></li>
           <li><a href="about.html">About me</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -23,28 +27,25 @@
     </div>
   </header>
   <main>
-    <div>
-      <div id="hero-section">
+    <div id="hero">
+      <div class="container">
         <h1>Hello, my name is Bruna and I'm a UI Designer</h1>
         <p>Welcome to my portfolio! My name is Bruna Oliveira and I'm a UI designer with a background in graphic design.
           I have experience working for e-commerce companies where I specialized in creating layouts for emails, digital campaigns and social media assets.
           I enjoy creating layouts that are easy to use, user-centric and visually pleasing.</p>
       </div>
     </div>
-    <div>
-      <div id="homepage-project-section">
+    <div id="hp-project">
+      <div class="container">
         <h2>My Work</h2>
-        <div>
-          <!-- open row that holds (2) columns for project -->
-          <div>
-            <!-- open first column (used for image) -->
+        <div class="row"><!-- open row that holds (2) columns for project -->
+          <div id="work-img-hp"><!-- open first column (used for image) -->
             <picture>
               <source srcset="img/project-preview-hp/mockup-homepage_project_1.jpg" media="(max-width:767px)">
               <a href="project_1.html"><img src="img/project-preview-hp/mockup-homepage_project_1.jpg" alt="My Image"></a>
             </picture>
           </div><!-- end first column -->
-          <div>
-            <!-- open second column (used for text) -->
+          <div id="work-description-hp"><!-- open second column (used for text) -->
             <h3>UI Design Project: The Nutrinut</h3>
             <p>A recipe web app focused on vegans, vegetarians and pescatarians users.
             </p>
@@ -53,11 +54,11 @@
         </div><!-- end row that holds (2) columns for project -->
       </div>
     </div>
-    <main>
+  </main>
       <footer id="contact">
-        <div id="footer-section">
-          <h2>Get in touch with me</h2>
-          <p>Do you like my work and want to discuss opportunities?
+        <div class="container">
+          <h2>Get in touch</h2>
+          <p class="footer-p">Do you like my work and want to discuss opportunities?
             Please get in touch. Call: <a href="tel:5612842810">(561)284-2810</a>
             or Skype me at <a href="skype:bruna.mcdowell">bruna.mcdowell</a>.
             Prefer to send an email?
@@ -65,16 +66,15 @@
           <div>
             <a class="button" href="mailto:bruna.designs@gmail.com">Email me</a>
           </div>
-            <div id="social-media-footer-section">
+          <div id="social-media-footer-section">
             <!--Social Media Layout and Placeholders-->
             <p>Find me on social media</p>
-            <a href="#" target="_blank"><img src="img/icons/instagram.png"></a>
-            <a href="#" target="_blank"><img src="img/icons/linkedin.png"></a>
-            <a href="#" target="_blank"><img src="img/icons/behance.png"></a>
+            <a href="#" target="_blank"><img class="social-media-icons" src="img/icons/instagram.png"></a>
+            <a href="#" target="_blank"><img class="social-media-icons" src="img/icons/linkedin.png"></a>
+            <a href="#" target="_blank"><img class="social-media-icons" src="img/icons/behance.png"></a>
           </div>
           <p>Copyright Bruna Oliveira 2021</p>
         </div>
       </footer>
 </body>
-
 </html>
