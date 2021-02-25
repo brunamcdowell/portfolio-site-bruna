@@ -57,10 +57,10 @@ a.button {
   background-color: #dd3482;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 5px;
   border-bottom: 2px solid #b10e59; /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition: 0.4s opacity;
 }
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
@@ -145,6 +145,7 @@ footer .social-media-icons {
 #project-section {
     padding: 20px 0;
     display: inline-block;
+    width: 100%;
 }
 #hp-project h2 {
   text-align: center;
@@ -160,6 +161,93 @@ footer {
 #about-designer-section {
   padding: 20px 0;
 }
-#project-section h1, h2, p {
+#project-section h1, h2 {
     text-align: center;
+}
+.social-media-icons {
+  width: 30px;
+  margin-right: 10px;
+}
+#contact {
+  clear: both;
+  margin: auto;
+}
+.center {
+  margin: auto;
+  padding: 0 20px;
+}
+#social-media-footer-section {
+  width: 100%;
+  text-align: center;
+}
+#footer-email-button {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #f76414;}
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
+
+nav {
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
+img .logo {
+  width: 200px;
+}
+main {
+  padding-top: 133px;
+}
+body {
+  font-size: 18px; /* Sets the font size to 16px */
+}
+.col-md-6 {
+  width: 50%;
+  padding: 10px;
+}
+[class*="col-"] {
+  float: left;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#about-page h3 {
+  margin-top: 0;
+}
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+.col-md-7 {
+    width: 58.33%;
+}
+.col-md-5 {
+  width: 41.66%;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
