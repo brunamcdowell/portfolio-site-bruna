@@ -261,6 +261,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.button {
+  margin-top: 20px;
+}
 }
 /* ==============================
 Large devices (1024px or larger)
