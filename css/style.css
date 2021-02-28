@@ -152,6 +152,9 @@ footer {
   width: 100%;
   padding: 10px 0;
 }
+#copyright {
+  font-size: 12px;
+}
 #about-designer-section h1, h2 {
   text-align: center;
 }
@@ -271,6 +274,13 @@ Large devices (1024px or larger)
 }
 main {
   padding-top: 100px;
+}
+#copyright {
+  font-size: 12px;
+}
+h3  {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 }
 
