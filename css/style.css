@@ -22,20 +22,20 @@ h1, h2, h3, h4 {
   line-height: 1.4;
 }
 h1 {
-  font-size: 2.75em;
-  font-weight: 300;
+  font-size: 2.95em;
+  font-weight: 600;
 }
 h2 {
-  font-size: 2.25em;
-  font-weight: 300;
+  font-size: 2em;
+  font-weight: 400;
 }
 h3 {
-  font-size: 1.75em;
-  font-weight: 300;
+  font-size: 1.25em;
+  font-weight: 600;
 }
 h4 {
-  font-size: 1.35em;
-  font-weight: 300;
+  font-size: 1em;
+  font-weight: 600;
 }
 img {
   width: 100%;
@@ -84,6 +84,10 @@ a.button {
 }
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  padding-bottom: 30px;
+}
+.border-bottom {
+  border-bottom: 2px solid #eff2f1;
 }
 #hero h1 {
   text-align: center; /* Centers text */
@@ -111,15 +115,18 @@ nav > ul > li {
 nav > ul > li > a {
   padding: 0 8px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 300;
   color: #4a4a4a;
+}
+nav > ul > li > a:hover {
+  text-decoration: none;
 }
 nav {
   display: inline-block;
   width: 100%;
 }
 #hero {
-  background-color: #ffe4c4;
+  background-color: #eff2f1;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -149,7 +156,7 @@ footer p {
   text-align: center;
 }
 footer {
-  background-color: #ffe4c4;
+  background-color: #d9f4eb;
   width: 100%;
   padding: 10px 0;
 }
@@ -334,6 +341,10 @@ h4  {
 #resume-button {
   display: flex;
   justify-content: left;
+  margin-bottom: 20px;
+}
+.green-color {
+    color: #18805d;
 }
 }
 
