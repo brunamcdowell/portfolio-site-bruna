@@ -92,7 +92,7 @@ a.button {
   max-width: 250px;
 }
 header {
-  background-color: #ffe4c4;
+  background-color: #fff;
   text-align: center;
   padding: 10px 0;
   -webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.24);
@@ -219,11 +219,14 @@ footer {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+
   header {
   text-align: unset;
   padding: 20px 0 13px;
 }
-
+h3  {
+  margin-top: 0px;  
+}
 nav {
   width: auto;
   float: right;
@@ -233,7 +236,7 @@ img .logo {
   width: 200px;
 }
 main {
-  padding-top: 133px;
+  padding-top: 100px;
 }
 body {
   font-size: 18px; /* Sets the font size to 16px */
@@ -268,6 +271,9 @@ Large devices (1024px or larger)
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+main {
+  padding-top: 100px;
 }
 }
 
