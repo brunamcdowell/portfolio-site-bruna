@@ -210,6 +210,17 @@ footer {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+.profile-photo {
+  width: 200px;
+  text-align: center;
+}
+.center-image {
+  display: flex;
+  justify-content: center;
+}
+#copyright {
+  font-size: 12px;
+}
 
 /* ==============================
 Medium devices (640px and larger)
