@@ -139,9 +139,6 @@ footer h2 {
 footer p {
   text-align: center;
 }
-footer .social-media-icons {
-  display: inline-block;
-}
 #project-section {
     padding: 20px 0;
     display: inline-block;
@@ -165,7 +162,7 @@ footer {
     text-align: center;
 }
 .social-media-icons {
-  width: 30px;
+  width: 40px;
   margin-right: 10px;
 }
 #contact {
@@ -181,9 +178,8 @@ footer {
   text-align: center;
 }
 #footer-email-button {
-    margin: auto;
     text-align: center;
-    width: 100%;
+    margin-bottom: 40px;
 }
 @keyframes color-change {
   from {fill: #edc655;}
@@ -225,7 +221,8 @@ Medium devices (640px and larger)
   padding: 20px 0 13px;
 }
 h3  {
-  margin-top: 0px;  
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 nav {
   width: auto;
