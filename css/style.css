@@ -148,11 +148,11 @@ nav {
 main {
   padding-top: 56px;
 }
-#work-img-hp {
+.work-img-hp {
   float: left;
   margin-bottom: 15px;
 }
-#work-description-hp {
+.work-description-hp {
 }
 footer h2 {
   text-align: center;
@@ -165,7 +165,7 @@ footer p {
     display: inline-block;
     width: 100%;
 }
-#hp-project h2 {
+.hp-project h2 {
   text-align: center;
 }
 footer {
